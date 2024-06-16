@@ -1,0 +1,308 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins","san-serif";
+}
+body{
+    width: 100vw;
+    height:100%;
+    background-color:gray;
+     
+    
+}
+.container{
+    width: 700px;
+    height: 100%;
+    background-color: #fff;
+    display: block;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 350px;
+
+    
+}
+.container .info{
+    display: flex;
+    justify-content: center;
+}
+.container  h1{
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    margin: 5px 0px;
+    padding: 0px 5px;
+}
+.container .info h5{
+    text-align: center;
+    margin: 5px 0px;
+    padding: 0px 5px;
+    border-right: 1px solid black;
+}
+.container .info h5:last-child{
+    border-right: none;
+}
+.container h2{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.objective h3{
+    letter-spacing: 2px;
+}
+.tech-skill{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+}
+.tech-skill h3{
+    margin-left: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 0px;
+}
+.tech-skills{
+    display: flex;
+   padding: 20px 20px;
+    font-size: 20px;
+    margin-left: 30px;
+    
+}
+.tech-skills .div1{
+     margin-right: 30px;
+    
+}
+.tech-skills .div2{
+    
+    margin-left: 70px;
+}
+ 
+.container .tech-skills li{
+     list-style-type: circle;
+     flex-direction: column;
+}
+.projects{
+    background-color: blanchedalmond;
+}
+
+.projects h3{
+    margin-left: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 0px;
+}
+.food-del{
+    display: flex;
+    padding: 10px 10px;
+    justify-content: space-between;
+    
+} 
+.food-del h4{
+   letter-spacing: 1.5px;
+   margin-left: 20px;
+}
+.food-del ul li p{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: justify;
+    padding: 10px;
+}
+.food-del h5{
+    font-weight: 400;
+}
+.food-del ul {
+    list-style-type: circle;
+}
+.education{
+    background-color: blanchedalmond;
+}
+.education h3{
+    margin-left: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 0px;
+}
+.ug{
+    padding: 20px;
+}
+.ug h3{
+    letter-spacing: 2px;
+}
+.ug h5{
+    margin: 5px 0px;
+    font-weight: 400;
+}
+.ug h4{
+        min-width: 50px;
+        font-weight: 400;
+}
+.ug h6{
+    font-weight: 400;
+}
+.personal-skill{
+    background-color: blanchedalmond;
+}
+.personal-skill h3{
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 0px;
+}
+.personal-skills{
+    display: flex;
+    padding: 20px 20px;
+     font-size: 20px;
+     margin-left: 30px;
+}
+.personal-skills li{
+    list-style-type: circle;
+}
+.personal-skills .div1{
+    margin-right: 30px;
+}
+.personal-skills .div2{
+    margin-left: 70px;
+}
+.training-skill{
+    background-color: blanchedalmond;
+}
+.training-skill h3{
+    margin-left: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 0px;
+}
+.inplant h4{
+    margin-left: 20px;
+    margin-top: 13px;
+    letter-spacing: 1.5px;
+}
+.inplant h5{
+    margin-left: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+ 
+.internship h4{
+    margin-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+
+}
+.internship h5{
+    margin-left: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+.language{
+    background-color: blanchedalmond;
+}
+.language h3{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    padding: 5px 0px;
+
+}
+.languages li{
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.Achieve{
+    background-color:blanchedalmond;
+}
+.Achieve h3{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    padding: 5px 0px;
+}
+.achievements h4{
+   font-weight: 400;
+   margin-left: 20px;
+   margin-top: 10px;
+}
+.objective{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+}
+.objective h3{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    padding: 5px 0px;
+}
+.objectives h4{
+    font-weight: 400;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: justify;
+    margin-left: 5px;
+}
+.certification{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+}
+.certification h3{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    padding: 5px 0px;
+}
+.certifications li{
+    list-style-type: circle;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.certifications {
+    margin-top: 10px;
+}
+.goals{
+    background-color: blanchedalmond;
+    margin-top: 10px;
+}
+.goals h3{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    padding: 5px 0px;
+}
+.golses h4{
+   font-weight: 400;
+   margin-left: 20px;
+   margin-top: 10px;
+}
+.golses h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+}
+.strengths{
+    background-color: blanchedalmond;
+}
+.strengths h3{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    padding: 5px 0px;
+}
+.strength h4{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.hobbies{
+    background-color: blanchedalmond;
+}
+.hobbies h3{
+    letter-spacing: 2px;
+    margin-left: 20px;
+    padding: 5px 0px;
+}
+.hobbieses h4{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
